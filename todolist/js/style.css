@@ -1,0 +1,96 @@
+.hidden {
+    display:none;
+}
+#clock {
+    position:fixed;
+    top:0px;
+    left:43.5%;
+    font-size:4vh;
+}
+#greeting {
+    position:fixed;
+    top:0.8vh;
+    left:3vh;
+    font-size:3vh;
+}
+#weather {
+    position:fixed;
+    top:2.5vh;
+    right:3vh;
+    font-size:3vh;
+}
+#todo-form {
+    position:fixed;
+    width:30vh;
+    top:20vh;
+    left:5vh;
+    font-size:3vh;
+}
+#todo-list {
+    position:fixed;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    top:25vh;
+    left:2vh;
+    font-size:4vh;
+    width:95%;
+}
+#quote {
+    position:absolute;
+    bottom:30vh;
+    left:1vh;
+    font-size:3vh;
+    color:rgba(0,0,0,0.8);
+}
+.box--first {
+    display:flex;
+    color:rgba(0,0,0,0.6);
+    width:100%;
+    height:20vh;
+    position:fixed;
+    top:0px;
+}
+body {
+    background-color: rgba(0,0,0,0.8);
+    color:rgba(255,255,255,1);
+  }
+  
+  h2 {
+    color: #fff;
+  }
+  #todo-list button {
+    border-radius:20px;
+    border:2px solid rgba(255,255,255,1);
+    background-color:rgba(0,0,0,1);
+  }
+  ul {
+    background-color:rgba(255,255,255,0.5);
+    color: rgba(0,0,0,1);
+    width:100%;
+    font-size:3vh;
+  }
+  
+  input[type="text"] {
+    border: 2px solid #f00;
+  }
+  
+  #quote span {
+    position:fixed;
+    top:10vh;
+    left:3vh;
+    color:rgba(0,0,0,1);
+    -webkit-text-stroke: 1px white; /* Safari 브라우저를 위한 prefix */
+    
+  }
+  
+  #weather span {
+    color: #fff;
+  }
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+    
