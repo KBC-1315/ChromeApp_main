@@ -13,6 +13,11 @@
     left:3vh;
     font-size:3vh;
 }
+#login-form{
+    position:absolute;
+    top:30vh;
+    left:48%;
+}
 #weather {
     position:fixed;
     top:2.5vh;
